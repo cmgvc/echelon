@@ -1,0 +1,95 @@
+import { StyleSheet, Dimensions } from 'react-native';
+
+const { width, height } = Dimensions.get('window');
+
+export const authStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    position: 'relative',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+  },
+    title: {
+        fontSize: 50,
+        color: '#F9F4F2',
+        marginBottom: 10,
+        textAlign: 'center',
+    },
+    subtitle: {
+        fontSize: 19,
+        fontFamily: 'EchelonFont',
+        color: '#6c757d',
+        color: 'rgba(255, 255, 255, 0.71)',
+        marginBottom: 40,
+        textAlign: 'center',
+    },
+    buttonSignIn: {
+        alignSelf: 'center',
+        marginTop: 20,
+        backgroundColor: 'rgb(255, 255, 255)',
+        paddingVertical: 14,
+        width: '80%',
+        borderColor: 'rgba(255, 255, 255, 0.57)',
+        borderRadius: 0,
+        borderWidth: 1,
+    },
+    buttonCreateAccount: {
+        alignSelf: 'center',
+        marginTop: 20,
+        backgroundColor: 'rgba(255, 255, 255, 0.15)',
+        paddingVertical: 14,
+        width: '80%',
+        borderColor: 'rgba(255, 255, 255, 0.57)',
+        borderRadius: 0,
+        borderWidth: 1,
+    },
+    buttonSkip: {
+        alignSelf: 'center',
+        paddingVertical: 14,
+        width: '80%',
+        marginTop: 10,
+    },
+    buttonTextSignIn: {
+        color: 'rgb(0, 0, 0)',
+        fontSize: 18,
+        textAlign: 'center',
+        fontFamily: 'EchelonFont',
+    },
+    buttonTextCreateAccount: {
+        color: 'rgb(255, 255, 255)',
+        fontSize: 18,
+        textAlign: 'center',
+        fontFamily: 'EchelonFont',
+    },
+    buttonTextSkip: {
+        color: 'rgba(255, 255, 255, 0.85)',
+        fontSize: 16,
+        textAlign: 'center',
+        fontFamily: 'EchelonFont',
+    },
+    video: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '200%',
+        height,
+    },
+    overlay: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width,
+        height,
+        backgroundColor: 'rgba(10, 10, 10, 0.53)',
+    },
+    input: {
+        width: '100%',
+        height: 50,
+        backgroundColor: 'rgba(255, 255, 255, 0.15)',
+        borderRadius: 8,
+        paddingHorizontal: 16,
+        color: '#F9F4F2',
+        marginBottom: 16,
+    },
+});
