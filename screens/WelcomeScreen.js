@@ -3,7 +3,6 @@ import { welcomeStyles } from '../styles/welcomeStyles';
 import { Video } from 'expo-av';
 
 export default function WelcomeScreen({ navigation }) {
-
     return (
       <View style={{ flex: 1, backgroundColor: '#0a0a0a' }}>
       <View style={welcomeStyles.container}>

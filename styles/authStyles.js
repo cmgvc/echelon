@@ -9,11 +9,12 @@ export const authStyles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
-  },
+    },
     title: {
-        fontSize: 50,
+        fontSize: 45,
         color: '#F9F4F2',
         marginBottom: 10,
+        fontFamily: 'EchelonFont',
         textAlign: 'center',
     },
     subtitle: {
@@ -26,7 +27,7 @@ export const authStyles = StyleSheet.create({
     },
     buttonSignIn: {
         alignSelf: 'center',
-        marginTop: 20,
+        marginTop: 50,
         backgroundColor: 'rgb(255, 255, 255)',
         paddingVertical: 14,
         width: '80%',
@@ -50,6 +51,11 @@ export const authStyles = StyleSheet.create({
         width: '80%',
         marginTop: 10,
     },
+    buttonForgotPassword: {
+        alignSelf: 'center',
+        paddingVertical: 10,
+        width: '80%',
+    },
     buttonTextSignIn: {
         color: 'rgb(0, 0, 0)',
         fontSize: 18,
@@ -68,6 +74,13 @@ export const authStyles = StyleSheet.create({
         textAlign: 'center',
         fontFamily: 'EchelonFont',
     },
+    buttonTextForgotPassword: {
+        color: 'rgba(255, 255, 255, 0.85)',
+        fontSize: 16,
+        textAlign: 'center',
+        fontFamily: 'EchelonFont',
+        textDecorationLine: 'underline',
+    },
     video: {
         position: 'absolute',
         top: 0,
@@ -81,15 +94,33 @@ export const authStyles = StyleSheet.create({
         left: 0,
         width,
         height,
-        backgroundColor: 'rgba(10, 10, 10, 0.53)',
+        backgroundColor: 'rgba(0, 0, 0, 0.74)',
     },
     input: {
-        width: '100%',
+        width: '90%',
+        alignSelf: 'center',
         height: 50,
-        backgroundColor: 'rgba(255, 255, 255, 0.15)',
-        borderRadius: 8,
+        backgroundColor: 'rgba(255, 255, 255, 0)',
         paddingHorizontal: 16,
         color: '#F9F4F2',
-        marginBottom: 16,
+        marginBottom: 23,
+        borderBottomWidth: 1,
+        borderBottomColor: 'rgba(255, 255, 255, 0.57)',
+        fontSize: 16,
+        fontFamily: 'EchelonFont',
     },
+    buttonContinue: {
+        backgroundColor: 'rgb(255, 255, 255)',
+        paddingVertical: 14,
+        width: '100%',
+        borderColor: 'rgba(255, 255, 255, 0.57)',
+        borderRadius: 0,
+        borderWidth: 1,
+    },
+    buttonBack: {
+        backgroundColor: 'rgba(255, 255, 255, 0)',
+        paddingVertical: 14,
+        width: '100%',
+        marginTop: 10
+    }
 });
